@@ -10,7 +10,7 @@ button.addEventListener('click', (event)=>{
     let mealCalories = parseInt(foodCalories.value);
     console.log(mealName);
     console.log(mealCalories);
-
+    let r=1000;
     total += mealCalories;
     totalSpan.innerHTML = total;
 
